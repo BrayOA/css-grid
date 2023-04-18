@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:200px 600px ;
+}
+
+.grid div{
+    background : #5a686b;
+    padding: 1em;
+}x
+
+.grid div:hover {
+    border: 3px solid #595d5e;
+}
